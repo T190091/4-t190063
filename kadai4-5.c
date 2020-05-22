@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    long i=9223372036854775807  ;
-    printf("%ld\n", i);
+    long i=1;
+    while(1){
+        if(i<0)
+        break;
+        i=i*2;
+    }
+    printf("%ld\n", i-1);
 }
